@@ -1,9 +1,10 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
+import {isYes} from '../isYesFunk.js'
 
 const test = QUnit.test;
 
-test('checks user input for yes', (expect) => {
+test('if user input is yes then the isYes function returns true', (expect) => {
     //Arrange
     // Set up your arguments and expectations
     const userInput = "yes"

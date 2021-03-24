@@ -19,7 +19,7 @@ body {
     --footer-height: 25px;
     
     font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    background-color: black;
 }
 
 main {
@@ -62,8 +62,10 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 5.8rem;
     font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
 }
 
 .gutter-right {
@@ -115,5 +117,50 @@ footer {
     80% {
         transform: rotate3d(10, 10, 10, 50deg) scale(1);
     }
+
+  }
+
+  #quiz-button{
+      background-color: blueviolet;
+      width: 200px;
+      height: 100px;
+      font-weight: bolder;
+      font-size: larger;
+      box-shadow: 5px 10px 10px 5px;
+      box-shadow: rgb(233, 1, 1);
+  }
+
+  #intro{
+      color: purple;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      text-align: center;
+  }
+
+  ol{
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+
+  ul{
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+
+  h3{
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+  }
+
+  #test-results{
+      color: red;
+      font-size: 35px;
+
+
+
 
   }

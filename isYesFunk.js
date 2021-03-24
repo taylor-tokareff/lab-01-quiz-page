@@ -1,6 +1,3 @@
 export function isYes(userInput){
-    if(userInput === "yes"){
-        return true
-    }
-     return false
+    return userInput[0].toLowerCase() === 'y';
 }

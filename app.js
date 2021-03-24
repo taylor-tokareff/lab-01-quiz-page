@@ -15,11 +15,15 @@ quizButton.addEventListener('click', () =>{
     let score = 0
     
     alert ('Let\'s play a little game :D');
-    const confirmQuiz = confirm ('Would you like to take a quiz?');
+
+    const userName = prompt('What is you name?');
+    const confirmQuiz = confirm(`Would you like to take a quiz, ${userName}?`);
+
     if(confirmQuiz === false){
         alert(':(');
         return;
     }
+
     const response = prompt('Are dogs cool?');
     const firstAnswer = isYes(response)
 
@@ -27,13 +31,27 @@ quizButton.addEventListener('click', () =>{
         // score = score+1
         // score += 1
         score++ 
-
-
     }
 
-    
+    const response2 = prompt('Are dogs descendants of wolves?');
+    const secondAnswer = isYes(response)
 
+    if (secondAnswer === true) {
+        // score = score+1
+        // score += 1
+        score++ 
+    }
 
-    testResults.textContent = score
+    const response3 = prompt('Do I like dogs?');
+    const thirdAnswer = isYes(response)
+
+    if (thirdAnswer === true) {
+        // score = score+1
+        // score += 1
+        score++ 
+    }
+
+    testResults.textContent = `You scored ${score} points`
 }) 
+
 

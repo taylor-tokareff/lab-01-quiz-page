@@ -34,7 +34,7 @@ quizButton.addEventListener('click', () =>{
     }
 
     const response2 = prompt('Are dogs descendants of wolves?');
-    const secondAnswer = isYes(response)
+    const secondAnswer = isYes(response2)
 
     if (secondAnswer === true) {
         // score = score+1
@@ -43,7 +43,7 @@ quizButton.addEventListener('click', () =>{
     }
 
     const response3 = prompt('Do I like dogs?');
-    const thirdAnswer = isYes(response)
+    const thirdAnswer = isYes(response3)
 
     if (thirdAnswer === true) {
         // score = score+1
